@@ -1,0 +1,159 @@
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<head>
+<meta name="citation_title" content="Probabilistic Lane Estimation using Basis Curves" />  
+<meta name="citation_author" content="A. Huang" />  
+<meta name="citation_author" content="S. Teller" />  
+<meta name="citation_publication_date" content="2010/06/27" />  
+<meta name="citation_conference_title" content="Robotics: Science and Systems VI" />  
+<meta name="citation_isbn" content="9780262516815" />  
+<meta name="citation_volume" content="06" />  
+<meta name="citation_pdf_url" content="p04.pdf" />  
+<title>Robotics: Science and Systems VI - Online Proceedings</title>
+<link type="text/css" rel="stylesheet" href="../style.css">
+<!--[if IE 5]>
+<link type="text/css" rel="stylesheet" href="../ie5.css">
+<![endif]-->
+<!--[if IE 6]>
+<link type="text/css" rel="stylesheet" href="../ie6.css">
+<![endif]-->
+</head>
+<body>
+<div class="menu">
+<ul>
+<li class="here"><a class="menu" href="../index.html">Home</a></li>
+<li class="label">RSS XIX</span></li>
+<li class="menu"><a class="menu" href="../rss19/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss19/authors.html">Authors</a></li>
+<li class="label">RSS XVIII</span></li>
+<li class="menu"><a class="menu" href="../rss18/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss18/authors.html">Authors</a></li>
+<li class="label">RSS XVII</span></li>
+<li class="menu"><a class="menu" href="../rss17/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss17/authors.html">Authors</a></li>
+<li class="label">RSS XVI</span></li>
+<li class="menu"><a class="menu" href="../rss16/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss16/authors.html">Authors</a></li>
+<li class="label">RSS XV</span></li>
+<li class="menu"><a class="menu" href="../rss15/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss15/authors.html">Authors</a></li>
+<li class="label">RSS XIV</span></li>
+<li class="menu"><a class="menu" href="../rss14/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss14/authors.html">Authors</a></li>
+<li class="label">RSS XIII</span></li>
+<li class="menu"><a class="menu" href="../rss13/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss13/authors.html">Authors</a></li>
+<li class="label">RSS XII</span></li>
+<li class="menu"><a class="menu" href="../rss12/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss12/authors.html">Authors</a></li>
+<li class="label">RSS XI</span></li>
+<li class="menu"><a class="menu" href="../rss11/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss11/authors.html">Authors</a></li>
+<li class="label">RSS X</span></li>
+<li class="menu"><a class="menu" href="../rss10/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss10/authors.html">Authors</a></li>
+<li class="label">RSS IX</span></li>
+<li class="menu"><a class="menu" href="../rss09/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss09/authors.html">Authors</a></li>
+<li class="label">RSS VIII</span></li>
+<li class="menu"><a class="menu" href="../rss08/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss08/authors.html">Authors</a></li>
+<li class="label">RSS VII</span></li>
+<li class="menu"><a class="menu" href="../rss07/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss07/authors.html">Authors</a></li>
+<li class="label">RSS VI</span></li>
+<li class="menu"><a class="menu" href="../rss06/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss06/authors.html">Authors</a></li>
+<li class="label">RSS V</span></li>
+<li class="menu"><a class="menu" href="../rss05/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss05/authors.html">Authors</a></li>
+<li class="label">RSS IV</span></li>
+<li class="menu"><a class="menu" href="../rss04/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss04/authors.html">Authors</a></li>
+<li class="label">RSS III</span></li>
+<li class="menu"><a class="menu" href="../rss03/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss03/authors.html">Authors</a></li>
+<li class="label">RSS II</span></li>
+<li class="menu"><a class="menu" href="../rss02/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss02/authors.html">Authors</a></li>
+<li class="label">RSS I</span></li>
+<li class="menu"><a class="menu" href="../rss01/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss01/authors.html">Authors</a></li>
+<li class="label">Ethics and Malpractice</span></li>
+<li class="menu"><a class="menu" href="../statement.html">Statement</a></li>
+<li class="label">Contact</span></li>
+<li class="last"><a class="menu" href="../contact.html">Webmaster</a></li>
+<li class="no-style"><center><img border="0" src="../robot-small.jpg"></center>
+<br><br><br>
+<center>We are using google analytics for statistics!</center>
+</ul>
+</div>
+<div class="content">
+
+<h1>Robotics: Science and Systems VI</h1>
+<h3>Probabilistic Lane Estimation using Basis Curves</h3>
+<i>A. Huang and S. Teller</i><br>
+<p>
+<b>Abstract:</b>
+</p><p style="text-align: justify;">
+Lane estimation for autonomous driving can be
+formulated as a curve estimation problem, where local sensor
+data provides partial and noisy observations of spatial curves.
+The number of curves to estimate may be initially unknown and
+many of the observations may be outliers or false detections
+(due e.g. to to tree shadows or lens flare). The challenges lie in
+detecting lanes when and where they exist, and updating lane
+estimates as new observations are made.<br />
+This paper describes an efficient probabilistic lane estimation
+algorithm based on a novel curve representation. The key
+advance is a principled mechanism to describe many similar
+curves as variations of a single basis curve. Locally observed road
+paint and curb features are then fused to detect and estimate
+all nearby travel lanes. The system handles roads with complex
+geometries and makes no assumptions about the position and
+orientation of the vehicle with respect to the roadway.<br />
+We evaluate our algorithm with a ground truth dataset
+containing manually-labeled, fine-grained lane geometries for
+vehicle travel in two large and diverse datasets that include more
+than 300,000 images and 44km of roadway. The results illustrate
+the capabilities of our algorithm for robust lane estimation in the
+face of challenging conditions and unknown roadways.
+</p>
+<p>
+<b>Download:</b> <a href="p04.pdf" target="_blank" onclick="_gaq.push(['_trackEvent','rss06/p04.pdf','PDF',this.href]);"><img src="../icon-pdf.png" border=0></a>
+</p>
+<p>
+<b>Bibtex:</b>
+<pre>
+@INPROCEEDINGS{ Huang-RSS-10,
+    AUTHOR    = {A. Huang AND S. Teller},
+    TITLE     = {Probabilistic Lane Estimation using Basis Curves},
+    BOOKTITLE = {Proceedings of Robotics: Science and Systems},
+    YEAR      = {2010},
+    ADDRESS   = {Zaragoza, Spain},
+    MONTH     = {June},
+    DOI       = {10.15607/RSS.2010.VI.004} 
+}
+
+</pre>
+</p>
+
+</div>
+
+<div class="analyt">
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24631810-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</div>
+
+</body>

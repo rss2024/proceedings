@@ -1,0 +1,162 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<meta name="citation_title" content="Visually Navigating the RMS Titanic with SLAM Information Filters" />  
+<meta name="citation_author" content="Ryan Eustice" />  
+<meta name="citation_author" content="Hanumant Singh" />  
+<meta name="citation_author" content="John Leonard" />  
+<meta name="citation_author" content="Matthew Walter" />  
+<meta name="citation_author" content="Robert Ballard" />  
+<meta name="citation_publication_date" content="2005/06/08" />  
+<meta name="citation_conference_title" content="Robotics: Science and Systems I" />  
+<meta name="citation_isbn" content="9780262701143" />  
+<meta name="citation_volume" content="01" />  
+<meta name="citation_pdf_url" content="p08.pdf" />  
+<title>Robotics: Science and Systems I - Online Proceedings</title>
+<link type="text/css" rel="stylesheet" href="../style.css">
+<!--[if IE 5]>
+<link type="text/css" rel="stylesheet" href="../ie5.css">
+<![endif]-->
+<!--[if IE 6]>
+<link type="text/css" rel="stylesheet" href="../ie6.css">
+<![endif]-->
+</head>
+<body>
+<div class="menu">
+<ul>
+<li class="here"><a class="menu" href="../index.html">Home</a></li>
+<li class="label">RSS XIX</span></li>
+<li class="menu"><a class="menu" href="../rss19/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss19/authors.html">Authors</a></li>
+<li class="label">RSS XVIII</span></li>
+<li class="menu"><a class="menu" href="../rss18/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss18/authors.html">Authors</a></li>
+<li class="label">RSS XVII</span></li>
+<li class="menu"><a class="menu" href="../rss17/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss17/authors.html">Authors</a></li>
+<li class="label">RSS XVI</span></li>
+<li class="menu"><a class="menu" href="../rss16/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss16/authors.html">Authors</a></li>
+<li class="label">RSS XV</span></li>
+<li class="menu"><a class="menu" href="../rss15/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss15/authors.html">Authors</a></li>
+<li class="label">RSS XIV</span></li>
+<li class="menu"><a class="menu" href="../rss14/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss14/authors.html">Authors</a></li>
+<li class="label">RSS XIII</span></li>
+<li class="menu"><a class="menu" href="../rss13/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss13/authors.html">Authors</a></li>
+<li class="label">RSS XII</span></li>
+<li class="menu"><a class="menu" href="../rss12/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss12/authors.html">Authors</a></li>
+<li class="label">RSS XI</span></li>
+<li class="menu"><a class="menu" href="../rss11/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss11/authors.html">Authors</a></li>
+<li class="label">RSS X</span></li>
+<li class="menu"><a class="menu" href="../rss10/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss10/authors.html">Authors</a></li>
+<li class="label">RSS IX</span></li>
+<li class="menu"><a class="menu" href="../rss09/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss09/authors.html">Authors</a></li>
+<li class="label">RSS VIII</span></li>
+<li class="menu"><a class="menu" href="../rss08/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss08/authors.html">Authors</a></li>
+<li class="label">RSS VII</span></li>
+<li class="menu"><a class="menu" href="../rss07/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss07/authors.html">Authors</a></li>
+<li class="label">RSS VI</span></li>
+<li class="menu"><a class="menu" href="../rss06/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss06/authors.html">Authors</a></li>
+<li class="label">RSS V</span></li>
+<li class="menu"><a class="menu" href="../rss05/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss05/authors.html">Authors</a></li>
+<li class="label">RSS IV</span></li>
+<li class="menu"><a class="menu" href="../rss04/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss04/authors.html">Authors</a></li>
+<li class="label">RSS III</span></li>
+<li class="menu"><a class="menu" href="../rss03/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss03/authors.html">Authors</a></li>
+<li class="label">RSS II</span></li>
+<li class="menu"><a class="menu" href="../rss02/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss02/authors.html">Authors</a></li>
+<li class="label">RSS I</span></li>
+<li class="menu"><a class="menu" href="../rss01/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss01/authors.html">Authors</a></li>
+<li class="label">Ethics and Malpractice</span></li>
+<li class="menu"><a class="menu" href="../statement.html">Statement</a></li>
+<li class="label">Contact</span></li>
+<li class="last"><a class="menu" href="../contact.html">Webmaster</a></li>
+<li class="no-style"><center><img border="0" src="../robot-small.jpg"></center>
+<br><br><br>
+<center>We are using google analytics for statistics!</center>
+</ul>
+</div>
+<div class="content">
+
+<h1>Robotics: Science and Systems I</h1>
+
+<h3>Visually Navigating the RMS Titanic with SLAM
+Information Filters</h3>
+
+<i>Ryan Eustice, Hanumant Singh, John Leonard, Matthew Walter, Robert Ballard</i><br>
+
+<p>
+
+<b>Abstract:</b> This paper describes a vision-based, large-area,
+simultaneous localization and mapping (SLAM) algorithm that
+respects the low-overlap imagery constraints typical of underwater
+vehicles while exploiting the inertial sensor information that is
+routinely available on such platforms.We present a novel strategy
+for efficiently accessing and maintaining consistent covariance
+bounds within a SLAM information filter, thereby greatly increasing
+the reliability of data association. The technique is based
+upon solving a sparse system of linear equations coupled with
+the application of constant-time Kalman updates. The method
+is shown to produce consistent covariance estimates suitable
+for robot planning and data association. Real-world results are
+presented for a vision-based 6-DOF SLAM implementation using
+data from a recent ROV survey of the wreck of the RMS Titanic.
+
+<p>
+
+<b>Download:</b> <a href="p08.pdf" target="_blank" onclick="_gaq.push(['_trackEvent','rss01/p08.pdf','PDF',this.href]);"><img src="../icon-pdf.png" border=0></a>
+
+<p>
+
+<b>Bibtex:</b>
+<pre>
+@INPROCEEDINGS{ Eustice-RSS-05,
+    AUTHOR    = {Ryan Eustice and Hanumant Singh and John Leonard and 
+                 Matthew Walter and Robert Ballard},
+    TITLE     = {Visually Navigating the RMS Titanic with SLAM
+                 Information Filters},
+    BOOKTITLE = {Proceedings of Robotics: Science and Systems},
+    YEAR      = {2005},
+    ADDRESS   = {Cambridge, USA},
+    MONTH     = {June},
+    DOI       = {10.15607/RSS.2005.I.008} 
+}
+</pre>
+
+<p>
+
+</div>
+
+<div class="analyt">
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24631810-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</div>
+
+</body>

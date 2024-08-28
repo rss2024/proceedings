@@ -1,0 +1,135 @@
+<html> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />  
+<head>  
+<meta name="citation_title" content="Hilbert maps: scalable continuous occupancy mapping with stochastic gradient descent" />  
+<meta name="citation_author" content="Fabio Ramos" />  
+<meta name="citation_author" content="Lionel Ott" />  
+<meta name="citation_publication_date" content="2015/07/13" />  
+<meta name="citation_conference_title" content="Robotics: Science and Systems XI" />  
+<meta name="citation_isbn" content="9780992374716" />  
+<meta name="citation_volume" content="11" />  
+<meta name="citation_pdf_url" content="p02.pdf" />  
+<title>Robotics: Science and Systems XI - Online Proceedings</title>  
+<link type="text/css" rel="stylesheet" href="../style.css">  
+<!--[if IE 5]> 
+<link type="text/css" rel="stylesheet" href="../ie5.css"> 
+<![endif]-->  
+<!--[if IE 6]> 
+<link type="text/css" rel="stylesheet" href="../ie6.css"> 
+<![endif]-->  
+</head>  
+<body>  
+<div class="menu">  
+<ul>
+<li class="here"><a class="menu" href="../index.html">Home</a></li>
+<li class="label">RSS XIX</span></li>
+<li class="menu"><a class="menu" href="../rss19/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss19/authors.html">Authors</a></li>
+<li class="label">RSS XVIII</span></li>
+<li class="menu"><a class="menu" href="../rss18/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss18/authors.html">Authors</a></li>
+<li class="label">RSS XVII</span></li>
+<li class="menu"><a class="menu" href="../rss17/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss17/authors.html">Authors</a></li>
+<li class="label">RSS XVI</span></li>
+<li class="menu"><a class="menu" href="../rss16/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss16/authors.html">Authors</a></li>
+<li class="label">RSS XV</span></li>
+<li class="menu"><a class="menu" href="../rss15/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss15/authors.html">Authors</a></li>
+<li class="label">RSS XIV</span></li>
+<li class="menu"><a class="menu" href="../rss14/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss14/authors.html">Authors</a></li>
+<li class="label">RSS XIII</span></li>
+<li class="menu"><a class="menu" href="../rss13/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss13/authors.html">Authors</a></li>
+<li class="label">RSS XII</span></li>
+<li class="menu"><a class="menu" href="../rss12/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss12/authors.html">Authors</a></li>
+<li class="label">RSS XI</span></li>
+<li class="menu"><a class="menu" href="../rss11/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss11/authors.html">Authors</a></li>
+<li class="label">RSS X</span></li>
+<li class="menu"><a class="menu" href="../rss10/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss10/authors.html">Authors</a></li>
+<li class="label">RSS IX</span></li>
+<li class="menu"><a class="menu" href="../rss09/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss09/authors.html">Authors</a></li>
+<li class="label">RSS VIII</span></li>
+<li class="menu"><a class="menu" href="../rss08/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss08/authors.html">Authors</a></li>
+<li class="label">RSS VII</span></li>
+<li class="menu"><a class="menu" href="../rss07/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss07/authors.html">Authors</a></li>
+<li class="label">RSS VI</span></li>
+<li class="menu"><a class="menu" href="../rss06/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss06/authors.html">Authors</a></li>
+<li class="label">RSS V</span></li>
+<li class="menu"><a class="menu" href="../rss05/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss05/authors.html">Authors</a></li>
+<li class="label">RSS IV</span></li>
+<li class="menu"><a class="menu" href="../rss04/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss04/authors.html">Authors</a></li>
+<li class="label">RSS III</span></li>
+<li class="menu"><a class="menu" href="../rss03/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss03/authors.html">Authors</a></li>
+<li class="label">RSS II</span></li>
+<li class="menu"><a class="menu" href="../rss02/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss02/authors.html">Authors</a></li>
+<li class="label">RSS I</span></li>
+<li class="menu"><a class="menu" href="../rss01/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss01/authors.html">Authors</a></li>
+<li class="label">Ethics and Malpractice</span></li>
+<li class="menu"><a class="menu" href="../statement.html">Statement</a></li>
+<li class="label">Contact</span></li>
+<li class="last"><a class="menu" href="../contact.html">Webmaster</a></li>
+<li class="no-style"><center><img border="0" src="../robot-small.jpg"></center>
+<br><br><br>
+<center>We are using google analytics for statistics!</center>
+</ul>
+</div>  
+<div class="content">  
+  
+<h1>Robotics: Science and Systems XI</h1>  
+<h3>Hilbert maps: scalable continuous occupancy mapping with stochastic gradient descent</h3> 
+<i>Fabio Ramos, Lionel Ott</i><br>  
+<p>  
+<b>Abstract:</b>  
+</p><p style="text-align: justify;">  
+The vast amount of data robots can capture today motivates the development of fast and scalable statistical tools to model the environment the robot operates in. We devise a new technique for environment representation through continuous occupancy mapping that improves on the popular occupancy grip maps in two fundamental aspects: 1) it does not assume an a priori discretisation of the world into grid cells and therefore can provide maps at an arbitrary resolution; 2) it captures statistical relationships between measurements naturally, thus being more robust to outliers and possessing better generalisation performance. The technique named Hilbert maps, is based on the computation of fast kernel approximations that project the data in a Hilbert space where a logistic regression classifier is learnt. We show that this approach allows for efficient stochastic gradient descent optimisation where each measurement is only processed once during learning or online updates. We present results with three types of kernel approximations, Random Fourier, Nystrom and a novel sparse projections. We also show how to extend the approach to accept probability distributions as inputs, i.e. when there is uncertainty over the position of laser scans due to sensor or localisation errors. Experiments demonstrate the benefits of the approach in popular benchmark datasets with several thousand laser scans.
+</p>  
+<p>  
+<b>Download:</b> <a href="p02.pdf" target="_blank" onclick="_gaq.push(['_trackEvent','rss11/p02.pdf','PDF',this.href]);"><img src="../icon-pdf.png" border=0></a> 
+</p>  
+<p>  
+<b>Bibtex:</b>  
+<pre>  
+@INPROCEEDINGS{Ramos-RSS-15, 
+    AUTHOR    = {Fabio Ramos AND Lionel Ott}, 
+    TITLE     = {Hilbert maps: scalable continuous occupancy mapping with stochastic gradient descent}, 
+    BOOKTITLE = {Proceedings of Robotics: Science and Systems}, 
+    YEAR      = {2015}, 
+    ADDRESS   = {Rome, Italy}, 
+    MONTH     = {July},
+    DOI       = {10.15607/RSS.2015.XI.002} 
+} 
+  
+</pre>  
+</p>  
+  
+</div>  
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24631810-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>  
+</html> 

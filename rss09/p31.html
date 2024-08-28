@@ -1,0 +1,143 @@
+<html> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />  
+<head>  
+<meta name="citation_title" content="Finding Locally Optimal, Collision-Free Trajectories with Sequential Convex Optimization" />  
+<meta name="citation_author" content="John Schulman" />  
+<meta name="citation_author" content="Jonathan Ho" />  
+<meta name="citation_author" content="Alex Lee" />  
+<meta name="citation_author" content="Ibrahim Awwal" />  
+<meta name="citation_author" content="Henry Bradlow" />  
+<meta name="citation_author" content="Pieter Abbeel" />  
+<meta name="citation_publication_date" content="2013/06/24" />  
+<meta name="citation_conference_title" content="Robotics: Science and Systems IX" />  
+<meta name="citation_isbn" content="9789810739379" />  
+<meta name="citation_volume" content="09" />  
+<meta name="citation_pdf_url" content="p31.pdf" />  
+<title>Robotics: Science and Systems IX - Online Proceedings</title>  
+<link type="text/css" rel="stylesheet" href="../style.css">  
+<!--[if IE 5]> 
+<link type="text/css" rel="stylesheet" href="../ie5.css"> 
+<![endif]-->  
+<!--[if IE 6]> 
+<link type="text/css" rel="stylesheet" href="../ie6.css"> 
+<![endif]-->  
+</head>  
+<body>  
+<div class="menu">  
+<ul>
+<li class="here"><a class="menu" href="../index.html">Home</a></li>
+<li class="label">RSS XIX</span></li>
+<li class="menu"><a class="menu" href="../rss19/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss19/authors.html">Authors</a></li>
+<li class="label">RSS XVIII</span></li>
+<li class="menu"><a class="menu" href="../rss18/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss18/authors.html">Authors</a></li>
+<li class="label">RSS XVII</span></li>
+<li class="menu"><a class="menu" href="../rss17/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss17/authors.html">Authors</a></li>
+<li class="label">RSS XVI</span></li>
+<li class="menu"><a class="menu" href="../rss16/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss16/authors.html">Authors</a></li>
+<li class="label">RSS XV</span></li>
+<li class="menu"><a class="menu" href="../rss15/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss15/authors.html">Authors</a></li>
+<li class="label">RSS XIV</span></li>
+<li class="menu"><a class="menu" href="../rss14/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss14/authors.html">Authors</a></li>
+<li class="label">RSS XIII</span></li>
+<li class="menu"><a class="menu" href="../rss13/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss13/authors.html">Authors</a></li>
+<li class="label">RSS XII</span></li>
+<li class="menu"><a class="menu" href="../rss12/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss12/authors.html">Authors</a></li>
+<li class="label">RSS XI</span></li>
+<li class="menu"><a class="menu" href="../rss11/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss11/authors.html">Authors</a></li>
+<li class="label">RSS X</span></li>
+<li class="menu"><a class="menu" href="../rss10/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss10/authors.html">Authors</a></li>
+<li class="label">RSS IX</span></li>
+<li class="menu"><a class="menu" href="../rss09/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss09/authors.html">Authors</a></li>
+<li class="label">RSS VIII</span></li>
+<li class="menu"><a class="menu" href="../rss08/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss08/authors.html">Authors</a></li>
+<li class="label">RSS VII</span></li>
+<li class="menu"><a class="menu" href="../rss07/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss07/authors.html">Authors</a></li>
+<li class="label">RSS VI</span></li>
+<li class="menu"><a class="menu" href="../rss06/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss06/authors.html">Authors</a></li>
+<li class="label">RSS V</span></li>
+<li class="menu"><a class="menu" href="../rss05/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss05/authors.html">Authors</a></li>
+<li class="label">RSS IV</span></li>
+<li class="menu"><a class="menu" href="../rss04/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss04/authors.html">Authors</a></li>
+<li class="label">RSS III</span></li>
+<li class="menu"><a class="menu" href="../rss03/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss03/authors.html">Authors</a></li>
+<li class="label">RSS II</span></li>
+<li class="menu"><a class="menu" href="../rss02/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss02/authors.html">Authors</a></li>
+<li class="label">RSS I</span></li>
+<li class="menu"><a class="menu" href="../rss01/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss01/authors.html">Authors</a></li>
+<li class="label">Ethics and Malpractice</span></li>
+<li class="menu"><a class="menu" href="../statement.html">Statement</a></li>
+<li class="label">Contact</span></li>
+<li class="last"><a class="menu" href="../contact.html">Webmaster</a></li>
+<li class="no-style"><center><img border="0" src="../robot-small.jpg"></center>
+<br><br><br>
+<center>We are using google analytics for statistics!</center>
+</ul>
+</div>  
+<div class="content">  
+  
+<h1>Robotics: Science and Systems IX</h1>  
+<h3>Finding Locally Optimal, Collision-Free Trajectories with Sequential Convex Optimization</h3> 
+<i>John Schulman, Jonathan Ho, Alex Lee, Ibrahim Awwal, Henry Bradlow, Pieter Abbeel</i><br>  
+<p>  
+<b>Abstract:</b>  
+</p><p style="text-align: justify;">  
+We present a novel approach for incorporating collision avoidance into trajectory optimization as a method of solving robotic motion planning problems. At the core of our approach are (i) A sequential convex optimization procedure, which penalizes collisions with a hinge loss and increases the penalty coefficients in an outer loop as necessary. (ii) An efficient formulation of the no-collisions constraint that directly considers continuous-time safety and enables the algorithm to reliably solve motion planning problems, including problems involving thin and complex obstacles. We benchmarked our algorithm against several other mo- tion planning algorithms, solving a suite of 7-degree-of-freedom (DOF) arm-planning problems and 18-DOF full-body planning problems. We compared against sampling-based planners from OMPL, and we also compared to CHOMP, a leading approach for trajectory optimization. Our algorithm was faster than the alternatives, solved more problems, and yielded higher quality paths. Experimental evaluation on the following additional problem types also confirmed the speed and effectiveness of our approach: (i) Planning foot placements with 34 degrees of freedom (28 joints + 6 DOF pose) of the Atlas humanoid robot as it maintains static stability and has to negotiate environmental constraints. (ii) Industrial box picking. (iii) Real-world motion planning for the PR2 that requires considering all degrees of freedom at the same time.
+</p>  
+<p>  
+<b>Download:</b> <a href="p31.pdf" target="_blank" onclick="_gaq.push(['_trackEvent','rss09/p31.pdf','PDF',this.href]);"><img src="../icon-pdf.png" border=0></a> 
+</p>  
+<p>  
+<b>Bibtex:</b>  
+<pre>  
+@INPROCEEDINGS{Schulman-RSS-13, 
+    AUTHOR    = {John Schulman AND Jonathan Ho AND Alex Lee AND Ibrahim Awwal AND Henry Bradlow AND Pieter Abbeel}, 
+    TITLE     = {Finding Locally Optimal, Collision-Free Trajectories with Sequential Convex Optimization}, 
+    BOOKTITLE = {Proceedings of Robotics: Science and Systems}, 
+    YEAR      = {2013}, 
+    ADDRESS   = {Berlin, Germany}, 
+    MONTH     = {June},
+    DOI       = {10.15607/RSS.2013.IX.031} 
+} 
+  
+</pre>  
+</p>  
+  
+</div>  
+
+<div class="analyt">
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24631810-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</div>
+
+</body>  
+</html> 

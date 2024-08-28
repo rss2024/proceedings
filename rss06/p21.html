@@ -1,0 +1,162 @@
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<head>
+<meta name="citation_title" content="A Fast Traversal Heuristic and Optimal Algorithm for Effective Environmental Coverage" />  
+<meta name="citation_author" content="L. Xu" />  
+<meta name="citation_author" content="T. Stentz" />  
+<meta name="citation_publication_date" content="2010/06/27" />  
+<meta name="citation_conference_title" content="Robotics: Science and Systems VI" />  
+<meta name="citation_isbn" content="9780262516815" />  
+<meta name="citation_volume" content="06" />  
+<meta name="citation_pdf_url" content="p21.pdf" />  
+<title>Robotics: Science and Systems VI - Online Proceedings</title>
+<link type="text/css" rel="stylesheet" href="../style.css">
+<!--[if IE 5]>
+<link type="text/css" rel="stylesheet" href="../ie5.css">
+<![endif]-->
+<!--[if IE 6]>
+<link type="text/css" rel="stylesheet" href="../ie6.css">
+<![endif]-->
+</head>
+<body>
+<div class="menu">
+<ul>
+<li class="here"><a class="menu" href="../index.html">Home</a></li>
+<li class="label">RSS XIX</span></li>
+<li class="menu"><a class="menu" href="../rss19/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss19/authors.html">Authors</a></li>
+<li class="label">RSS XVIII</span></li>
+<li class="menu"><a class="menu" href="../rss18/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss18/authors.html">Authors</a></li>
+<li class="label">RSS XVII</span></li>
+<li class="menu"><a class="menu" href="../rss17/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss17/authors.html">Authors</a></li>
+<li class="label">RSS XVI</span></li>
+<li class="menu"><a class="menu" href="../rss16/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss16/authors.html">Authors</a></li>
+<li class="label">RSS XV</span></li>
+<li class="menu"><a class="menu" href="../rss15/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss15/authors.html">Authors</a></li>
+<li class="label">RSS XIV</span></li>
+<li class="menu"><a class="menu" href="../rss14/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss14/authors.html">Authors</a></li>
+<li class="label">RSS XIII</span></li>
+<li class="menu"><a class="menu" href="../rss13/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss13/authors.html">Authors</a></li>
+<li class="label">RSS XII</span></li>
+<li class="menu"><a class="menu" href="../rss12/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss12/authors.html">Authors</a></li>
+<li class="label">RSS XI</span></li>
+<li class="menu"><a class="menu" href="../rss11/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss11/authors.html">Authors</a></li>
+<li class="label">RSS X</span></li>
+<li class="menu"><a class="menu" href="../rss10/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss10/authors.html">Authors</a></li>
+<li class="label">RSS IX</span></li>
+<li class="menu"><a class="menu" href="../rss09/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss09/authors.html">Authors</a></li>
+<li class="label">RSS VIII</span></li>
+<li class="menu"><a class="menu" href="../rss08/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss08/authors.html">Authors</a></li>
+<li class="label">RSS VII</span></li>
+<li class="menu"><a class="menu" href="../rss07/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss07/authors.html">Authors</a></li>
+<li class="label">RSS VI</span></li>
+<li class="menu"><a class="menu" href="../rss06/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss06/authors.html">Authors</a></li>
+<li class="label">RSS V</span></li>
+<li class="menu"><a class="menu" href="../rss05/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss05/authors.html">Authors</a></li>
+<li class="label">RSS IV</span></li>
+<li class="menu"><a class="menu" href="../rss04/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss04/authors.html">Authors</a></li>
+<li class="label">RSS III</span></li>
+<li class="menu"><a class="menu" href="../rss03/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss03/authors.html">Authors</a></li>
+<li class="label">RSS II</span></li>
+<li class="menu"><a class="menu" href="../rss02/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss02/authors.html">Authors</a></li>
+<li class="label">RSS I</span></li>
+<li class="menu"><a class="menu" href="../rss01/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss01/authors.html">Authors</a></li>
+<li class="label">Ethics and Malpractice</span></li>
+<li class="menu"><a class="menu" href="../statement.html">Statement</a></li>
+<li class="label">Contact</span></li>
+<li class="last"><a class="menu" href="../contact.html">Webmaster</a></li>
+<li class="no-style"><center><img border="0" src="../robot-small.jpg"></center>
+<br><br><br>
+<center>We are using google analytics for statistics!</center>
+</ul>
+</div>
+<div class="content">
+
+<h1>Robotics: Science and Systems VI</h1>
+<h3>A Fast Traversal Heuristic and Optimal Algorithm for Effective Environmental Coverage</h3>
+<i>L. Xu and T. Stentz</i><br>
+<p>
+<b>Abstract:</b>
+</p><p style="text-align: justify;">
+Tasks such as street mapping and security surveillance
+seek a route that traverses a given space to perform a
+function. These task functions may involve mapping the space
+for accurate modeling, sensing the space for unusual activity,
+or processing the space for object detection. With a prior map,
+an optimal path can be computed using a graph to represent
+the environment and generating the solution using known graph
+algorithms. However, the prior map may be inaccurate due to
+factors such as occlusion, outdatedness, dynamic objects, and
+resolution limitations. In this work, we address the NP-hard
+problem of optimal environmental coverage with incomplete
+prior map information.<br />
+To utilize related algorithms in graph theory, we represent the
+environment as a graph. Using this representation, we present a
+graph coverage approach for optimal plan generation based on
+the Undirected Chinese Postman and Rural Postman problems.
+This approach produces a tractable solution through the use of
+low complexity algorithms in a branch-and-bound framework.
+Additionally, as the robot receives sensor updates during traversal
+of the environment, we update the graph to reflect those changes.
+The updated graph can be highly disconnected so computing an
+optimal solution can be NP-hard. To combat this, we introduce
+a heuristic for coverage path generation that helps maximize the
+connectivity of the updated graph. We evaluate our approach on
+a set of comparison tests in simulation.
+</p>
+<p>
+<b>Download:</b> <a href="p21.pdf" target="_blank" onclick="_gaq.push(['_trackEvent','rss06/p21.pdf','PDF',this.href]);"><img src="../icon-pdf.png" border=0></a>
+</p>
+<p>
+<b>Bibtex:</b>
+<pre>
+@INPROCEEDINGS{ Xu-RSS-10,
+    AUTHOR    = {L. Xu AND T. Stentz},
+    TITLE     = {A Fast Traversal Heuristic and Optimal Algorithm for Effective Environmental Coverage},
+    BOOKTITLE = {Proceedings of Robotics: Science and Systems},
+    YEAR      = {2010},
+    ADDRESS   = {Zaragoza, Spain},
+    MONTH     = {June},
+    DOI       = {10.15607/RSS.2010.VI.021} 
+}
+
+</pre>
+</p>
+
+</div>
+
+<div class="analyt">
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24631810-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</div>
+
+</body>

@@ -1,0 +1,153 @@
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<head>
+<meta name="citation_title" content="A Constant-Time Algorithm for Vector Field SLAM using an Exactly Sparse Extended Information Filter" />  
+<meta name="citation_author" content="J.-S. Gutmann" />  
+<meta name="citation_author" content="E. Eade" />  
+<meta name="citation_author" content="P. Fong" />  
+<meta name="citation_author" content="M. Munich" />  
+<meta name="citation_publication_date" content="2010/06/27" />  
+<meta name="citation_conference_title" content="Robotics: Science and Systems VI" />  
+<meta name="citation_isbn" content="9780262516815" />  
+<meta name="citation_volume" content="06" />  
+<meta name="citation_pdf_url" content="p25.pdf" />  
+<title>Robotics: Science and Systems VI - Online Proceedings</title>
+<link type="text/css" rel="stylesheet" href="../style.css">
+<!--[if IE 5]>
+<link type="text/css" rel="stylesheet" href="../ie5.css">
+<![endif]-->
+<!--[if IE 6]>
+<link type="text/css" rel="stylesheet" href="../ie6.css">
+<![endif]-->
+</head>
+<body>
+<div class="menu">
+<ul>
+<li class="here"><a class="menu" href="../index.html">Home</a></li>
+<li class="label">RSS XIX</span></li>
+<li class="menu"><a class="menu" href="../rss19/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss19/authors.html">Authors</a></li>
+<li class="label">RSS XVIII</span></li>
+<li class="menu"><a class="menu" href="../rss18/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss18/authors.html">Authors</a></li>
+<li class="label">RSS XVII</span></li>
+<li class="menu"><a class="menu" href="../rss17/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss17/authors.html">Authors</a></li>
+<li class="label">RSS XVI</span></li>
+<li class="menu"><a class="menu" href="../rss16/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss16/authors.html">Authors</a></li>
+<li class="label">RSS XV</span></li>
+<li class="menu"><a class="menu" href="../rss15/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss15/authors.html">Authors</a></li>
+<li class="label">RSS XIV</span></li>
+<li class="menu"><a class="menu" href="../rss14/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss14/authors.html">Authors</a></li>
+<li class="label">RSS XIII</span></li>
+<li class="menu"><a class="menu" href="../rss13/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss13/authors.html">Authors</a></li>
+<li class="label">RSS XII</span></li>
+<li class="menu"><a class="menu" href="../rss12/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss12/authors.html">Authors</a></li>
+<li class="label">RSS XI</span></li>
+<li class="menu"><a class="menu" href="../rss11/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss11/authors.html">Authors</a></li>
+<li class="label">RSS X</span></li>
+<li class="menu"><a class="menu" href="../rss10/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss10/authors.html">Authors</a></li>
+<li class="label">RSS IX</span></li>
+<li class="menu"><a class="menu" href="../rss09/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss09/authors.html">Authors</a></li>
+<li class="label">RSS VIII</span></li>
+<li class="menu"><a class="menu" href="../rss08/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss08/authors.html">Authors</a></li>
+<li class="label">RSS VII</span></li>
+<li class="menu"><a class="menu" href="../rss07/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss07/authors.html">Authors</a></li>
+<li class="label">RSS VI</span></li>
+<li class="menu"><a class="menu" href="../rss06/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss06/authors.html">Authors</a></li>
+<li class="label">RSS V</span></li>
+<li class="menu"><a class="menu" href="../rss05/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss05/authors.html">Authors</a></li>
+<li class="label">RSS IV</span></li>
+<li class="menu"><a class="menu" href="../rss04/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss04/authors.html">Authors</a></li>
+<li class="label">RSS III</span></li>
+<li class="menu"><a class="menu" href="../rss03/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss03/authors.html">Authors</a></li>
+<li class="label">RSS II</span></li>
+<li class="menu"><a class="menu" href="../rss02/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss02/authors.html">Authors</a></li>
+<li class="label">RSS I</span></li>
+<li class="menu"><a class="menu" href="../rss01/index.html">Content</a></li>
+<li class="menu"><a class="menu" href="../rss01/authors.html">Authors</a></li>
+<li class="label">Ethics and Malpractice</span></li>
+<li class="menu"><a class="menu" href="../statement.html">Statement</a></li>
+<li class="label">Contact</span></li>
+<li class="last"><a class="menu" href="../contact.html">Webmaster</a></li>
+<li class="no-style"><center><img border="0" src="../robot-small.jpg"></center>
+<br><br><br>
+<center>We are using google analytics for statistics!</center>
+</ul>
+</div>
+<div class="content">
+
+<h1>Robotics: Science and Systems VI</h1>
+<h3>A Constant-Time Algorithm for Vector Field SLAM using an Exactly Sparse Extended Information Filter</h3>
+<i>J.-S. Gutmann, E. Eade, P. Fong and M. Munich</i><br>
+<p>
+<b>Abstract:</b>
+</p><p style="text-align: justify;">
+Designing a localization system for a low-cost
+robotic consumer product poses a major challenge. In previous
+work, we introduced Vector Field SLAM, a system for
+simultaneously estimating robot pose and a vector field induced
+by stationary signal sources present in the environment. In this
+paper we show how this method can be realized on a low-cost
+embedded processing unit by applying the concepts of the Exactly
+Sparse Extended Information Filter. By restricting the set of
+active features to the 4 nodes of the current cell, the size of the
+map becomes linear in the area explored by the robot while the
+time for updating the state can be held constant under certain
+approximations. We report results from running our method on
+an ARM 7 embedded board with 64 kByte RAM controlling a
+Roomba 510 vacuum cleaner in a standard test environment.
+</p>
+<p>
+<b>Download:</b> <a href="p25.pdf" target="_blank" onclick="_gaq.push(['_trackEvent','rss06/p25.pdf','PDF',this.href]);"><img src="../icon-pdf.png" border=0></a>
+</p>
+<p>
+<b>Bibtex:</b>
+<pre>
+@INPROCEEDINGS{ Gutmann-RSS-10,
+    AUTHOR    = {J.-S. Gutmann AND E. Eade AND P. Fong AND M. Munich},
+    TITLE     = {A Constant-Time Algorithm for Vector Field SLAM using an Exactly Sparse Extended Information Filter},
+    BOOKTITLE = {Proceedings of Robotics: Science and Systems},
+    YEAR      = {2010},
+    ADDRESS   = {Zaragoza, Spain},
+    MONTH     = {June},
+    DOI       = {10.15607/RSS.2010.VI.025} 
+}
+
+</pre>
+</p>
+
+</div>
+
+<div class="analyt">
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24631810-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</div>
+
+</body>
